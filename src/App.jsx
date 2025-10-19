@@ -868,23 +868,22 @@ export default function App() {
               />
             ) : currentItem.type === "youtube" ? (
               <div
-                className="relative mx-auto rounded-xl overflow-hidden"
-                style={{
-                  width: "min(100%, 1280px)",
-                  aspectRatio: "16 / 9",
-                  maxHeight: "85vh",
-                }}
+              className="relative mx-auto rounded-xl overflow-hidden"
+              style={{
+              width: "min(100%, 1280px)",
+              aspectRatio: "16 / 9",
+              maxHeight: "85vh",
+              }}
               >
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src={`https://www.youtube-nocookie.com/embed/${currentItem.videoId}?autoplay=1`}
-                  title={currentItem.title || "Video"}
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
-                  allowFullScreen
-                />
-              </div>
+            <iframe
+              className="absolute inset-0 w-full h-full"
+              src={`https://www.youtube-nocookie.com/embed/${currentItem.videoId}?autoplay=1&mute=1&playsinline=1`}
+              title={currentItem.title || "Video"}
+              frameBorder="0"
+              allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
+              allowFullScreen
+              />
+          </div>
             ) : (
               <video
                 className="mx-auto rounded-xl object-contain max-h-[85vh] w-auto max-w-full"
