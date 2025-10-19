@@ -235,12 +235,22 @@ const defaultState = {
     {
       id: uid(),
       type: "youtube",
+      title: "Primer baile como esposos",
+      url: "https://youtube.com/shorts/2saAnbhZePE",
+      videoId: "2saAnbhZePE",
+      sectionName: "Videos",
+      createdAt: Date.now(),
+      position: 102,
+    },
+    {
+      id: uid(),
+      type: "youtube",
       title: "Ingreso Parranda Vallenata",
       url: "https://www.youtube.com/shorts/XjOdBETTv9E",
       videoId: "XjOdBETTv9E",
       sectionName: "Videos",
       createdAt: Date.now(),
-      position: 102,
+      position: 103,
     },
   ],
 };
