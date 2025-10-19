@@ -78,181 +78,6 @@ const defaultState = {
       createdAt: Date.now(),
       position: 2,
     },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "photo",
-      title: "Cumpleaños de mamá",
-      url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-      sectionName: "Familia",
-      createdAt: Date.now(),
-      position: 1,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-     {
-      id: uid(),
-      type: "photo",
-      title: "Cumpleaños de mamá",
-      url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-      sectionName: "Familia",
-      createdAt: Date.now(),
-      position: 1,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-     {
-      id: uid(),
-      type: "photo",
-      title: "Cumpleaños de mamá",
-      url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-      sectionName: "Familia",
-      createdAt: Date.now(),
-      position: 1,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-     {
-      id: uid(),
-      type: "photo",
-      title: "Cumpleaños de mamá",
-      url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-      sectionName: "Familia",
-      createdAt: Date.now(),
-      position: 1,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-     {
-      id: uid(),
-      type: "photo",
-      title: "Cumpleaños de mamá",
-      url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-      sectionName: "Familia",
-      createdAt: Date.now(),
-      position: 1,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
-    {
-      id: uid(),
-      type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
-      videoId: "jfKfPfyJRdk",
-      sectionName: "Videos",
-      createdAt: Date.now(),
-      position: 2,
-    },
   ],
 };
 
@@ -627,6 +452,16 @@ export default function App() {
     setEditId(null);
   };
 
+  // ✅ NUEVO: borrar datos locales (sin afectar la nube)
+  const clearLocalData = () => {
+    localStorage.removeItem(LS_KEY);
+    // Opcional: limpia también tu config de nube y tema
+    // localStorage.removeItem(CLOUD_KEY);
+    // localStorage.removeItem(THEME_KEY);
+    alert("Datos locales eliminados. Se recargará la página.");
+    location.reload();
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-800 dark:from-slate-900 dark:to-slate-900 dark:text-slate-100">
       {/* Header */}
@@ -683,6 +518,16 @@ export default function App() {
             >
               <Upload className="h-4 w-4" />
               <span className="hidden md:inline">Subir</span>
+            </button>
+
+            {/* 🧹 Borrar local */}
+            <button
+              className="btn btn-outline"
+              onClick={clearLocalData}
+              title="Borrar datos locales"
+            >
+              <span className="mr-1">🧹</span>
+              <span className="hidden md:inline">Borrar local</span>
             </button>
 
             <button
@@ -887,7 +732,7 @@ export default function App() {
             <ChevronRight className="h-6 w-6" />
           </button>
 
-          {/* Contenedor del media; usamos maxHeight para que las fotos verticales quepan en pantalla */}
+          {/* Contenedor del media; ahora fotos verticales se adaptan al alto visible */}
           <div className="max-w-5xl w-full px-2" onClick={(e) => e.stopPropagation()}>
             {currentItem.type === "photo" ? (
               <img
@@ -1197,7 +1042,7 @@ export default function App() {
       )}
 
       <footer className="py-10 text-center text-xs text-slate-500 dark:text-slate-400">
-        Hecho por Alejandro Román Villegas
+        Hecho con ❤ — Datos guardados en tu navegador (localStorage)
       </footer>
     </div>
   );
