@@ -202,7 +202,7 @@ const defaultState = {
       videoId: "tUHyC-6gogo",
       sectionName: "Videos",
       createdAt: Date.now(),
-      position: 5,
+      position: 100,
     },
   ],
 };
