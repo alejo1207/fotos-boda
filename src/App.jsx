@@ -43,40 +43,67 @@ function extractYouTubeId(url) {
 
 const defaultState = {
   sections: [
-    { id: uid(), name: "Todos" },
-    { id: uid(), name: "Familia" },
-    { id: uid(), name: "Viajes" },
-    { id: uid(), name: "Eventos" },
+    { id: uid(), name: "Ceremonia" },
+    { id: uid(), name: "Recepción" },
+    { id: uid(), name: "Luna de miel" },
+    { id: uid(), name: "Las mejores Fotos" },
     { id: uid(), name: "Videos" },
   ],
   items: [
     {
       id: uid(),
       type: "photo",
-      title: "Atardecer en la playa",
-      url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600",
-      sectionName: "Viajes",
+      title: "Ceremonia 1",
+      url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760878794/fotos-boda/eo3fgxuk84eujpq2af7a.jpg",
+      sectionName: "Ceremonia",
       createdAt: Date.now(),
       position: 0,
     },
     {
       id: uid(),
       type: "photo",
-      title: "Cumpleaños de mamá",
-      url: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-      sectionName: "Familia",
+      title: "Ceremonia 2",
+      url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760878941/fotos-boda/njjgma7qziffaavm9ux8.jpg",
+      sectionName: "Ceremonia",
       createdAt: Date.now(),
       position: 1,
     },
     {
       id: uid(),
+      type: "photo",
+      title: "Ceremonia 3",
+      url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760879110/fotos-boda/axe6xdpmgg9dna6iwhai.jpg",
+      sectionName: "Ceremonia",
+      createdAt: Date.now(),
+      position: 2,
+    },
+    {
+      id: uid(),
+      type: "photo",
+      title: "Recepción 1",
+      url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760879640/fotos-boda/aeopinlqszway5y8lwjn.jpg",
+      sectionName: "Recepción",
+      createdAt: Date.now(),
+      position: 3,
+    },
+    {
+      id: uid(),
+      type: "photo",
+      title: "Recepción 2",
+      url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760879781/fotos-boda/zg54cesgrie5a2poww6k.jpg",
+      sectionName: "Recepción",
+      createdAt: Date.now(),
+      position: 4,
+    },
+    {
+      id: uid(),
       type: "youtube",
-      title: "Recuerdo en video",
-      url: "https://www.youtube.com/watch?v=jfKfPfyJRdk",
+      title: "Recepción Matrimonio Alexandra Y Alejandro Boda Hielo Cristal ❄️",
+      url: "https://www.youtube.com/shorts/tUHyC-6gogo",
       videoId: "jfKfPfyJRdk",
       sectionName: "Videos",
       createdAt: Date.now(),
-      position: 2,
+      position: 5,
     },
   ],
 };
@@ -1042,7 +1069,7 @@ export default function App() {
       )}
 
       <footer className="py-10 text-center text-xs text-slate-500 dark:text-slate-400">
-        Hecho con ❤ — Datos guardados en tu navegador (localStorage)
+        Realizado por AlejandrO RomáN
       </footer>
     </div>
   );
