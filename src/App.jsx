@@ -238,7 +238,7 @@ const defaultState = {
       url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760982866/fotos-boda/mtt0onmhmcz4f0otfdxy.jpg",
       sectionName: "Luna de miel",
       createdAt: Date.now(),
-      position: 20x,
+      position: 20,
     },
     {
       id: uid(),
@@ -247,7 +247,7 @@ const defaultState = {
       url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760982928/fotos-boda/ab1nbgsx9pr0omgaxpz6.jpg",
       sectionName: "Luna de miel",
       createdAt: Date.now(),
-      position: 21x,
+      position: 21,
     },
     {
       id: uid(),
@@ -256,7 +256,7 @@ const defaultState = {
       url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760983006/fotos-boda/jboany2bqy7jdmgldqkw.jpg",
       sectionName: "Luna de miel",
       createdAt: Date.now(),
-      position: 22x,
+      position: 22,
     },
     {
       id: uid(),
@@ -265,7 +265,7 @@ const defaultState = {
       url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760983086/fotos-boda/fnexqvjdxbkkg7ypiozf.jpg",
       sectionName: "Luna de miel",
       createdAt: Date.now(),
-      position: 23x,
+      position: 23,
     },
     {
       id: uid(),
@@ -274,7 +274,7 @@ const defaultState = {
       url: "https://res.cloudinary.com/dfhlgx2ii/image/upload/v1760983193/fotos-boda/e9mmxdpumy2vyd1xfozg.jpg",
       sectionName: "Luna de miel",
       createdAt: Date.now(),
-      position: 24x,
+      position: 24,
     },
     {
       id: uid(),
